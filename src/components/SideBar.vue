@@ -1,6 +1,13 @@
 <template>
   <nav>
-    <v-navigation-drawer dark app color="#FFCB5E" width="100">
+    <v-navigation-drawer
+      dark
+      app
+      color="#FFCB5E"
+      width="100"
+      temporary
+      v-model="drawer"
+    >
       <div class="text-center mt-5">
         <v-icon color="#4D2C00" large class="mt-4">fas fa-bars</v-icon>
       </div>
